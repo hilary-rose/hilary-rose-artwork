@@ -2599,6 +2599,7 @@
 			box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.5);
 			color: #fff;
 			min-width: 12em;
+			text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 		}
 
 			#portfolio input[type="button"]:hover,
@@ -3941,3 +3942,42 @@
 
 	}
 	
+	.portfoliostrips {
+  display: flex;
+  flex-direction: column; /* Stack on mobile */
+  justify-content: center;
+  /*  align-items: center; */
+}
+
+/* For screens 768px wide or larger (adjust breakpoint as needed) */
+@media (min-width: 768px) {
+  .portfoliostrips {
+    flex-direction: row; /* Side-by-side on desktop */
+    justify-content: center; 
+    max-width: 80vw;
+  }
+  .strip {
+	  width: 17vw;
+	  margin: 5px;
+	  
+	}
+}
+
+img .strip{
+  border: none;
+  outline: none;
+  text-decoration: none;
+}
+
+.stripswrapper {
+  position: relative; /* Key: This establishes the positioning context for the button */
+  display: inline-block; /* Helps wrap the container tightly around the image */
+}
+
+.stripswrapper img {
+  display: block; /* Removes default bottom margin/spacing from images */
+  width: 100%; /* Makes image responsive within the wrapper */
+  height: auto;
+  
+}
+
