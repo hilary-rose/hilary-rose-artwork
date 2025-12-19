@@ -3950,7 +3950,7 @@
 }
 
 /* For screens 768px wide or larger (adjust breakpoint as needed) */
-@media (min-width: 768px) {
+@media (min-width: 1100px) {
   .portfoliostrips {
     flex-direction: row; /* Side-by-side on desktop */
     justify-content: center; 
