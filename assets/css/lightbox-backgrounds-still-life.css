@@ -1,0 +1,57 @@
+
+	
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1em;
+  padding: 20px;
+  overflow-x: hidden;
+}
+
+/* LIGHTBOX IMAGES FOR STILL LIFE */
+
+.img {
+  
+  width:100%;
+  min-height: 275px;
+  background-position: center;
+  background-size: cover;
+}
+
+  .img:nth-child(1) {
+    background-image: url(../../images/portfolio/still-life/2024-08-26_Ezra-the-Rescue-Rooster_8x10_gouache_illustration-board.png);
+  }
+  .img:nth-child(2) {
+    background-image: url(../../images/portfolio/still-life/2021-06-13_Reading-Corner_5x7_gouache.jpg);
+  }
+  .img:nth-child(3) {
+    background-image: url(../../images/portfolio/still-life/2021-02-18_Bottles-and-Jars_4x4_gouache.jpg);
+  }
+  .img:nth-child(4) {
+    background-image: url(../../images/portfolio/still-life/2020-12-31_Clementines-and-Hazelnuts_5.5x7_gouache.jpg);
+  }
+  .img:nth-child(5) {
+    background-image: url(../../images/portfolio/still-life/2020-09-18_Dramatic_Pears_2_2.5x4_gouache_noborder.jpg);
+  }
+  .img:nth-child(6) {
+    background-image: url(../../images/portfolio/still-life/2020-12-08_Festive-Bow_4.5x4.5_gouache.jpg);
+  }
+  .img:nth-child(7) {
+    background-image: url(../../images/portfolio/still-life/2021-02-13_Chili-Oil_4x4_gouache.jpg);
+  }
+  .img:nth-child(8) {
+    background-image: url(../../images/portfolio/still-life/2020-12-18_Christmas-Still-Life_6x6_gouache.jpg);
+  }
+  .img:nth-child(9) {
+    background-image: url(../../images/portfolio/still-life/2020-10-17_October-Collection_4.5x8_gouache.jpg);
+  }
+  .img:nth-child(10) {
+    background-image: url(../../images/portfolio/still-life/2020-10-10_Sunny-Still-Life_6x6_gouache2.jpg);
+  }
+  .img:nth-child(11) {
+    background-image: url(../../images/portfolio/still-life/2020-09-04_Campari_Time_2x4_gouache_noborder.jpg);
+  }
+  .img:nth-child(12) {
+    background-image: url(../../images/portfolio/still-life/2020-09-02_Pour_Over_4x4_gouache_noborder.jpg);
+  }
+  

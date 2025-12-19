@@ -1,0 +1,54 @@
+
+	
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1em;
+  padding: 20px;
+  overflow-x: hidden;
+}
+
+/* LIGHTBOX IMAGES FOR FIGURATIVE */
+
+
+  .img {
+  
+  width:100%;
+  min-height: 275px;
+  background-position: center;
+  background-size: cover;
+}
+
+  .img:nth-child(1) {
+    background-image: url(../../images/portfolio/figurative/2021-06-06_Bruise_4x7_gouache_updated.jpg);
+  }
+  .img:nth-child(2) {
+    background-image: url(../../images/portfolio/figurative/2021-11-28_self-portrait-5x7-gouache.jpg);
+  }
+  .img:nth-child(3) {
+    background-image: url(../../images/portfolio/figurative/2020-12-28_Self-Portrait_5.5x5.5_gouache.jpg);
+  }
+  .img:nth-child(4) {
+    background-image: url(../../images/portfolio/figurative/2021-02-02_Serena_5.5x6.5_gouache2.jpg);
+  }
+  .img:nth-child(5) {
+    background-image: url(../../images/portfolio/figurative/brad.jpg);
+  }
+  .img:nth-child(6) {
+    background-image: url(../../images/portfolio/figurative/nude1.jpg);
+  }
+  .img:nth-child(7) {
+    background-image: url(../../images/portfolio/figurative/nude2.jpg);
+  }
+  .img:nth-child(8) {
+    background-image: url(../../images/portfolio/figurative/nude3.jpg);
+  }
+  .img:nth-child(9) {
+    background-image: url(../../images/portfolio/figurative/nude4.jpg);
+  }
+  .img:nth-child(10) {
+    background-image: url(../../images/portfolio/figurative/nude5.jpg);
+  }
+  .img:nth-child(11) {
+    background-image: url(../../images/portfolio/figurative/model1.jpg);
+  }

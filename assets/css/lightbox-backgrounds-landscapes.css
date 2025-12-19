@@ -1,0 +1,48 @@
+
+	
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1em;
+  padding: 20px;
+  overflow-x: hidden;
+}
+
+
+/* LIGHTBOX IMAGES FOR CITY SCENES */
+
+  .img {
+  
+  width:100%;
+  min-height: 275px;
+  background-position: center;
+  background-size: cover;
+}
+
+  .img:nth-child(1) {
+    background-image: url(../../images/portfolio/landscapes/2025-01-01_Ritceys-Cove-Nova-Scotia_12x12_gouache.jpg);
+  }
+  .img:nth-child(2) {
+    background-image: url(../../images/portfolio/landscapes/2024-09-12_River-Bend-Farms-Barn_5.5x8_gouache2.jpg);
+  }
+  .img:nth-child(3) {
+    background-image: url(../../images/portfolio/landscapes/2023-10-24_Tree-Study-1_6x6_oil.jpg);
+  }
+  .img:nth-child(4) {
+    background-image: url(../../images/portfolio/landscapes/2023-10-24_Tree-Study-2_6x6_oil.jpg);
+  }
+  .img:nth-child(5) {
+    background-image: url(../../images/portfolio/landscapes/2022-04-02_Peggys-Cove_adjusted_6x6_gouache.jpg);
+  }
+  .img:nth-child(6) {
+    background-image: url(../../images/portfolio/landscapes/2021-12-08_Lions-Bay-Exit_6x12_gouache.jpg);
+  }
+  .img:nth-child(7) {
+    background-image: url(../../images/portfolio/landscapes/2021-11-21_Sea-to-Sky-1_6x12_gouache.jpg);
+  }
+  .img:nth-child(8) {
+    background-image: url(../../images/portfolio/landscapes/2021-11-14_En-Route-to-Whistler_6x12_gouache.jpg);
+  }
+  .img:nth-child(9) {
+    background-image: url(../../images/portfolio/landscapes/2021-10-21_Exit-2-Marine-Drive_6x12_gouache.jpg);
+  }
