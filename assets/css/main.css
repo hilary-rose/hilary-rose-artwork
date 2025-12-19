@@ -2459,6 +2459,7 @@
 			float: left;
 			padding: 0 1.5em 1em 0;
 			top: 0.25em;
+			max-width: 90%;
 		}
 
 		.image.right {
